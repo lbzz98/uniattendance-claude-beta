@@ -1,0 +1,19 @@
+{
+  "schema": 1,
+  "channel": "beta",
+  "version": "3.5.0-beta.1",
+  "build": 1,
+  "published": "2026-10-26",
+  "notes": {
+    "it": "Prima baseline indipendente Claude, derivata dalla 3.5.0: dati, licenza, sessione, progetto Xcode e aggiornamenti separati.",
+    "en": "First independent Claude baseline, based on 3.5.0: separate data, license storage, session, Xcode project and update channel."
+  },
+  "downloads": {
+    "macos-claude": {
+      "url": "https://github.com/lbzz98/uniattendance-claude-beta/releases/download/v3.5.0-beta.1/UniAttendance-Claude-3.5.0-beta.1-macOS-universal.zip",
+      "filename": "UniAttendance-Claude-3.5.0-beta.1-macOS-universal.zip",
+      "sha256": "10a581aa14392b5248fe113f4c76f1e4d85e57ce4138a5e4ebcba6facc3faf54",
+      "bytes": 12783937
+    }
+  }
+}
