@@ -1,19 +1,19 @@
 {
   "schema": 1,
   "channel": "beta",
-  "version": "3.5.2-beta.1",
-  "build": 4,
+  "version": "3.5.3-beta.1",
+  "build": 5,
   "published": "2026-10-27",
   "notes": {
-    "it": "La finestra «Ore non ancora in calendario» è più compatta: con i corsi chiusi si vede tutto subito, senza scorrere. Le ore in più restano indicate nelle righe e nel riquadro delle Impostazioni; il riquadro verde ridondante è stato tolto.",
-    "en": "The \"Hours not yet in the calendar\" window is more compact: with the courses collapsed everything is visible at once, without scrolling. Extra hours are still shown in the rows and in the Settings box; the redundant green box was removed."
+    "it": "Nuovo: «Scarica tutti» nei Materiali online. Scarica uno alla volta i documenti mostrati, salta quelli già in biblioteca, fissa la selezione quando premi il pulsante, mostra i completati e la percentuale del file in corso, si può interrompere e, se la sessione scade o un file fallisce, si ferma conservando i file già scaricati.",
+    "en": "New: \"Download all\" in online Materials. It downloads the documents shown one at a time, skips those already in the library, fixes the selection when you press the button, shows completed files and the percentage of the current one, can be stopped and, if the session expires or a file fails, stops keeping the files already downloaded."
   },
   "downloads": {
     "macos-claude": {
-      "url": "https://github.com/lbzz98/uniattendance-claude-beta/releases/download/v3.5.2-beta.1/UniAttendance-Claude-3.5.2-beta.1-macOS-universal.zip",
-      "filename": "UniAttendance-Claude-3.5.2-beta.1-macOS-universal.zip",
-      "sha256": "90de8658ee803500091c433b4b3bb8ec640f414e63678f5052ffa111a6481d27",
-      "bytes": 12912702
+      "url": "https://github.com/lbzz98/uniattendance-claude-beta/releases/download/v3.5.3-beta.1/UniAttendance-Claude-3.5.3-beta.1-macOS-universal.zip",
+      "filename": "UniAttendance-Claude-3.5.3-beta.1-macOS-universal.zip",
+      "sha256": "a867e44f39b03f0193d9ff5719c913d7d48286c47f58a3cb95d4a1e5730039d7",
+      "bytes": 12981769
     }
   }
 }
