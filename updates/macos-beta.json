@@ -1,19 +1,19 @@
 {
   "schema": 1,
   "channel": "beta",
-  "version": "3.5.0-beta.1",
-  "build": 1,
-  "published": "2026-10-26",
+  "version": "3.5.1-beta.1",
+  "build": 3,
+  "published": "2026-10-27",
   "notes": {
-    "it": "Prima baseline indipendente Claude, derivata dalla 3.5.0: dati, licenza, sessione, progetto Xcode e aggiornamenti separati.",
-    "en": "First independent Claude baseline, based on 3.5.0: separate data, license storage, session, Xcode project and update channel."
+    "it": "Nuovo: ore non ancora in calendario. Per ogni corso, modulo e gruppo l'app mostra le ore previste dai CFU che il PDF dell'università non contiene ancora (tratto viola nella barra delle presenze e riquadro nelle Impostazioni) e segnala anche le ore in più già in calendario, spiegando come tornano i conti.",
+    "en": "New: hours not yet in the calendar. For every course, module and group the app shows the hours expected from the ECTS credits that the university PDF does not contain yet (purple stretch in the attendance bar and a box in Settings) and also flags extra hours already in the calendar, explaining how the figures add up."
   },
   "downloads": {
     "macos-claude": {
-      "url": "https://github.com/lbzz98/uniattendance-claude-beta/releases/download/v3.5.0-beta.1/UniAttendance-Claude-3.5.0-beta.1-macOS-universal.zip",
-      "filename": "UniAttendance-Claude-3.5.0-beta.1-macOS-universal.zip",
-      "sha256": "10a581aa14392b5248fe113f4c76f1e4d85e57ce4138a5e4ebcba6facc3faf54",
-      "bytes": 12783937
+      "url": "https://github.com/lbzz98/uniattendance-claude-beta/releases/download/v3.5.1-beta.1/UniAttendance-Claude-3.5.1-beta.1-macOS-universal.zip",
+      "filename": "UniAttendance-Claude-3.5.1-beta.1-macOS-universal.zip",
+      "sha256": "6e05f5398f2374873dc5a54a9515ddadb6f1f8f0d37052f014797c75898566f2",
+      "bytes": 12910367
     }
   }
 }
