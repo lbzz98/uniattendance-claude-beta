@@ -1,19 +1,19 @@
 {
   "schema": 1,
   "channel": "beta",
-  "version": "3.5.1-beta.1",
-  "build": 3,
+  "version": "3.5.2-beta.1",
+  "build": 4,
   "published": "2026-10-27",
   "notes": {
-    "it": "Nuovo: ore non ancora in calendario. Per ogni corso, modulo e gruppo l'app mostra le ore previste dai CFU che il PDF dell'università non contiene ancora (tratto viola nella barra delle presenze e riquadro nelle Impostazioni) e segnala anche le ore in più già in calendario, spiegando come tornano i conti.",
-    "en": "New: hours not yet in the calendar. For every course, module and group the app shows the hours expected from the ECTS credits that the university PDF does not contain yet (purple stretch in the attendance bar and a box in Settings) and also flags extra hours already in the calendar, explaining how the figures add up."
+    "it": "La finestra «Ore non ancora in calendario» è più compatta: con i corsi chiusi si vede tutto subito, senza scorrere. Le ore in più restano indicate nelle righe e nel riquadro delle Impostazioni; il riquadro verde ridondante è stato tolto.",
+    "en": "The \"Hours not yet in the calendar\" window is more compact: with the courses collapsed everything is visible at once, without scrolling. Extra hours are still shown in the rows and in the Settings box; the redundant green box was removed."
   },
   "downloads": {
     "macos-claude": {
-      "url": "https://github.com/lbzz98/uniattendance-claude-beta/releases/download/v3.5.1-beta.1/UniAttendance-Claude-3.5.1-beta.1-macOS-universal.zip",
-      "filename": "UniAttendance-Claude-3.5.1-beta.1-macOS-universal.zip",
-      "sha256": "6e05f5398f2374873dc5a54a9515ddadb6f1f8f0d37052f014797c75898566f2",
-      "bytes": 12910367
+      "url": "https://github.com/lbzz98/uniattendance-claude-beta/releases/download/v3.5.2-beta.1/UniAttendance-Claude-3.5.2-beta.1-macOS-universal.zip",
+      "filename": "UniAttendance-Claude-3.5.2-beta.1-macOS-universal.zip",
+      "sha256": "90de8658ee803500091c433b4b3bb8ec640f414e63678f5052ffa111a6481d27",
+      "bytes": 12912702
     }
   }
 }
