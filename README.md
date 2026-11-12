@@ -2,7 +2,7 @@
 
 Independent experimental development channel for UniAttendance, a native university timetable, attendance, syllabus, exams and materials app for UniCamillus Medicine and Surgery in English, Rome.
 
-This public repository contains **compiled macOS packages and their dedicated update feed only**. It is separate from the main UniAttendance Beta channel. Source code, personal data, license files and private signing keys are not published here. The Claude variant has its own app identity, data directory, credential/session storage and update channel. Installing it does not migrate data from the main app.
+This public repository contains **compiled macOS and Windows packages and their dedicated update feeds only**. It is separate from the main UniAttendance Beta channel. Source code, personal data, license files and private signing keys are not published here. The Claude variant has its own app identity, data directory, credential/session storage and update channel. Installing it does not migrate data from the main app.
 
 ## Installazione macOS
 
@@ -26,8 +26,19 @@ This public repository contains **compiled macOS packages and their dedicated up
 7. For online Materials and Badge scans, sign in to the official embedded portal and complete the CAPTCHA yourself. Avoid simultaneous portal sessions across variants if the university invalidates them.
 8. Future updates are checked and installed in the app using this repository's dedicated feed.
 
+## Installazione Windows
+
+1. Apri [Releases](https://github.com/lbzz98/uniattendance-claude-beta/releases) e scegli la pre-release **windows-v…** più recente.
+2. Scarica **UniAttendance-Claude-…-Windows-x64.zip** e **SHA256SUMS.txt**; in PowerShell controlla l'hash con `Get-FileHash <file.zip> -Algorithm SHA256`.
+3. Estrai lo ZIP in una cartella tua (mai sopra l'app originale) e avvia `UniAttendanceClaude.exe` (Windows 10/11 64 bit, Microsoft Edge WebView2 Runtime). Non è firmato: se SmartScreen avvisa e l'hash coincide, «Ulteriori informazioni» → «Esegui comunque».
+4. Dalla 3.5.1 in poi l'app si aggiorna da sola: Impostazioni → Aggiornamenti dell'app. I dati restano in `%LOCALAPPDATA%\UniAttendanceClaude`.
+
+## Windows installation
+
+Download the latest **windows-v…** pre-release ZIP and `SHA256SUMS.txt`, verify the hash with `Get-FileHash`, extract to your own folder and run `UniAttendanceClaude.exe` (64-bit Windows 10/11 and the WebView2 Runtime). From 3.5.1 on, updates are installed from Settings → App updates.
+
 ## Update channel
 
-[macOS Claude update manifest](https://raw.githubusercontent.com/lbzz98/uniattendance-claude-beta/main/updates/macos-beta.json). Platform key: `macos-claude`. Packages from the main distribution are not interchangeable.
+[macOS Claude update manifest](https://raw.githubusercontent.com/lbzz98/uniattendance-claude-beta/main/updates/macos-beta.json). Platform key: `macos-claude`. [Windows Claude update manifest](https://raw.githubusercontent.com/lbzz98/uniattendance-claude-beta/main/updates/windows-beta.json), platform key `windows-claude`. Packages from the main distribution are not interchangeable.
 
-No Windows package is included. iPhone/iPad development uses a separate local Xcode project; the macOS ZIP cannot be installed on iOS. This project is an independent student tool, not an official UniCamillus product.
+Windows packages are published as `windows-v…` pre-releases (see the Windows section). iPhone/iPad development uses a separate local Xcode project; the macOS ZIP cannot be installed on iOS. This project is an independent student tool, not an official UniCamillus product.
