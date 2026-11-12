@@ -1,0 +1,19 @@
+{
+  "schema": 1,
+  "channel": "beta",
+  "version": "3.12.0-beta.1",
+  "build": 4,
+  "published": "2026-11-12",
+  "notes": {
+    "it": "Allineamento a UniAttendance Mac 3.12: Medicina e Chirurgia in italiano e Nursing a Roma (calendari, syllabus, appelli e soglie dedicati), ore non ancora in calendario, badgiate annullate e uscite doppie, riletture automatiche, Aule libere dal Daily con mappa, Libreria per anno/corso/docente con ricerca nel contenuto ed Eliminati di recente, aggiornamento automatico.",
+    "en": "Aligned with UniAttendance Mac 3.12: Italian-taught Medicine and Nursing in Rome (dedicated calendars, syllabi, exams and thresholds), hours not yet in the calendar, cancelled scans and duplicate exits, automatic re-reads, Free rooms from the Daily with a map, Library by year/course/lecturer with content search and Recently deleted, automatic updates."
+  },
+  "downloads": {
+    "windows-claude": {
+      "url": "https://github.com/lbzz98/uniattendance-claude-beta/releases/download/windows-v3.12.0-beta.1/UniAttendance-Claude-3.12.0-beta.1-Windows-x64.zip",
+      "filename": "UniAttendance-Claude-3.12.0-beta.1-Windows-x64.zip",
+      "sha256": "8978a0ddfe7ee3563027df6299ab32aff5885de7ac7317a5345d96de298f83c0",
+      "bytes": 64860359
+    }
+  }
+}
