@@ -1,19 +1,19 @@
 {
   "schema": 1,
   "channel": "beta",
-  "version": "3.12.0-beta.1",
-  "build": 4,
+  "version": "3.12.0-beta.2",
+  "build": 5,
   "published": "2026-11-12",
   "notes": {
-    "it": "Allineamento a UniAttendance Mac 3.12: Medicina e Chirurgia in italiano e Nursing a Roma (calendari, syllabus, appelli e soglie dedicati), ore non ancora in calendario, badgiate annullate e uscite doppie, riletture automatiche, Aule libere dal Daily con mappa, Libreria per anno/corso/docente con ricerca nel contenuto ed Eliminati di recente, aggiornamento automatico.",
-    "en": "Aligned with UniAttendance Mac 3.12: Italian-taught Medicine and Nursing in Rome (dedicated calendars, syllabi, exams and thresholds), hours not yet in the calendar, cancelled scans and duplicate exits, automatic re-reads, Free rooms from the Daily with a map, Library by year/course/lecturer with content search and Recently deleted, automatic updates."
+    "it": "Interfaccia più vicina all'app Mac: mappa ufficiale del campus in Aule libere (edifici cliccabili, sfondo chiaro/scuro), Libreria a schede, selettore degli orari, menu a tendina per corso di laurea e anno, nuova ricerca lezioni e nuove modifiche del calendario. Include tutte le novità della 3.12.0-beta.1.",
+    "en": "Interface closer to the Mac app: official campus map in Free rooms (clickable buildings, light/dark background), card-based Library, time pickers, drop-down menus for programme and year, new lesson search and calendar changes. Includes everything in 3.12.0-beta.1."
   },
   "downloads": {
     "windows-claude": {
-      "url": "https://github.com/lbzz98/uniattendance-claude-beta/releases/download/windows-v3.12.0-beta.1/UniAttendance-Claude-3.12.0-beta.1-Windows-x64.zip",
-      "filename": "UniAttendance-Claude-3.12.0-beta.1-Windows-x64.zip",
-      "sha256": "8978a0ddfe7ee3563027df6299ab32aff5885de7ac7317a5345d96de298f83c0",
-      "bytes": 64860359
+      "url": "https://github.com/lbzz98/uniattendance-claude-beta/releases/download/windows-v3.12.0-beta.2/UniAttendance-Claude-3.12.0-beta.2-Windows-x64.zip",
+      "filename": "UniAttendance-Claude-3.12.0-beta.2-Windows-x64.zip",
+      "sha256": "86317c57c443a051ecd37fe4a28ab4de5d2a5fa8cfd0763e648883c23dea4ce8",
+      "bytes": 65434359
     }
   }
 }
